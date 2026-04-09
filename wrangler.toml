@@ -1,9 +1,17 @@
-name = "v20251104"
+name = "gyf"                                      # ← 必须改成这个，和你的 Worker 名称一致
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-# ==================== 关键：KV 永久绑定 ====================
+# ==================== KV 永久绑定（已修正 ID）====================
 kv_namespaces = [
   { binding = "KV", id = "daeec53920c4aab95f6d608b5eeb2e0" }
 ]
+
+# ==================== 推荐一起加上（避免下次再出现配置冲突）====================
+[[routes]]
+pattern = "vpn.gyf123.dpdns.org"
+zone_name = "gyf123.dpdns.org"
+
+[vars]
+ADMIN = "a.123456"
