@@ -9,9 +9,9 @@ kv_namespaces = [
 ]
 
 # ==================== 推荐一起加上（避免下次再出现配置冲突）====================
-[[routes]]
-pattern = "yfg.gyf111.dpdns.org/*"
-zone_name = "dpdns.org"
+# [[routes]]
+# pattern = "yfg.gyf111.dpdns.org/*"
+# zone_name = "dpdns.org"
 
 [vars]
 ADMIN = "a.123456"
