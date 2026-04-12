@@ -3,7 +3,7 @@ main = "_worker.js"
 compatibility_date = "2026-04-12"
 keep_vars = true
 
-==================== KV 永久绑定（已修正 ID）====================
+# ==================== KV 永久绑定（已修正 ID）====================
 kv_namespaces = [
   { binding = "KV", id = "cfe75899082d42debc10de21e0f3bc7f" }
 ]
